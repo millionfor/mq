@@ -6,7 +6,9 @@
  * @Description     index
  */
 
-import { producerInitial, producerPost } from './producer';
+import { producerInitial, producerPost, $logger } from './producer';
 import { handlerConsumer } from './consumer';
+
+export const logger = $logger
 
 export { producerInitial, producerPost, handlerConsumer };

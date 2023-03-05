@@ -1,6 +1,6 @@
 const { producerInitial, producerPost, handlerConsumer } = require('../')
 
-const CONNECTION_SETTING = 'amqp://xxx:5672'
+const CONNECTION_SETTING = 'amqp://123.249.0.192:5672'
 const CHANNEL_NAME = 'wx_tasks'
 
 producerInitial(CONNECTION_SETTING)

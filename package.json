@@ -1,7 +1,7 @@
 {
   "name": "@millionfor/mq",
   "description": "A portable function based on mq",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "author": "QuanQuan <millionfor@apache.org>",
   "main": "lib/mq.cjs.js",
   "module": "lib/mq.esm.js",
