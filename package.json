@@ -1,7 +1,7 @@
 {
   "name": "@millionfor/mq",
   "description": "A portable function based on mq",
-  "version": "1.0.3",
+  "version": "1.0.8",
   "author": "QuanQuan <millionfor@apache.org>",
   "main": "lib/mq.cjs.js",
   "module": "lib/mq.esm.js",
@@ -12,7 +12,7 @@
     "release": "node .build/release.js",
     "lint": "standard",
     "lint:fix": "standard --fix",
-    "test": "npm run lint && node ./test/test.js"
+    "test": "yarn build && node ./test/test.js"
   },
   "dependencies": {
     "@millionfor/logger": "^2.0.4",

@@ -7,8 +7,8 @@
  */
 
 import { producerInitial, producerPost, $logger } from './producer';
-import { handlerConsumer } from './consumer';
+import { handlerConsumer, handlerConsumerNew } from './consumer';
 
 export const logger = $logger
 
-export { producerInitial, producerPost, handlerConsumer };
+export { producerInitial, producerPost, handlerConsumer, handlerConsumerNew };
